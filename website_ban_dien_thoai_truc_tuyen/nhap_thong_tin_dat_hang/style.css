@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+input.form-control {
+  border-width: 2px; /* Mặc định là 1px, tăng lên 2px hoặc hơn */
+}
+/* .container mt-3{} */
+.navbar {
+  background-color: #e0e0e0;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-family: "Brush Script MT", cursive;
+  font-size: 28px;
+}
+
+.search-box {
+  width: 300px;
+}
+
+h3 {
+  color: #000;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  border-radius: 6px;
+}
+
+textarea {
+  resize: none;
+}
