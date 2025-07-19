@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+}
+
+.container mt-3{}
+.navbar {
+  background-color: #e0e0e0;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-family: "Brush Script MT", cursive;
+  font-size: 28px;
+}
+
+.search-box {
+  width: 300px;
+  /* border-radius: 0px; */
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.quantity-box {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity-box input {
+  width: 40px;
+  text-align: center;
+}
+
+.remove-btn {
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.product-info {
+  text-align: left;
+}
+
+.product-img {
+  width: 80px;
+}
+
+.page-footer {
+  text-align: right;
+  font-size: 14px;
+  padding-right: 15px;
+}
