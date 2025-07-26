@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Thông tin khách hàng</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+
+<div class="container mt-4 ">
+  <div class="d-flex align-items-center mb-3">
+    <button class="btn btn-light me-3"><i class="bi bi-arrow-left"></i></button>
+    <h4 class="mb-0">Phone Stores</h4>
+    <div class="ms-auto d-flex align-items-center">
+      <input type="text" class="form-control me-2" placeholder="Tìm kiếm...">
+      <i class="bi bi-search"></i>
+    </div>
+  </div>
+
+  <div class="text-center mb-4">
+    <img src="https://via.placeholder.com/100" class="rounded-circle mb-2" alt="Avatar">
+    <h5>Khách hàng: Trương Văn Sang</h5>
+  </div>
+
+  <form>
+    <!-- Thông tin cá nhân -->
+    <section class="mb-3">
+      <div class="section-title">
+        <i class="bi bi-phone"></i> Thông tin cá nhân
+        <i class="bi bi-pencil ms-2 edit-icon"></i>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-4"><input class="form-control" value="Trương Văn Sang" placeholder="Họ và tên" /></div>
+        <div class="col-md-4"><input class="form-control" value="Nam" placeholder="Giới tính" /></div>
+        <div class="col-md-4"><input class="form-control" value="01/01/2020" placeholder="Ngày sinh" /></div>
+      </div>
+    </section>
+
+    <!-- Thông tin liên hệ -->
+    <section class="mb-3">
+      <div class="section-title">
+        <i class="bi bi-telephone"></i> Thông tin liên hệ
+        <i class="bi bi-pencil ms-2 edit-icon"></i>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-4"><input class="form-control" value="0123456789" placeholder="Số điện thoại" /></div>
+        <div class="col-md-4"><input class="form-control" value="sang@gmail.com" placeholder="Email" /></div>
+        <div class="col-md-4"><input class="form-control" value="77 Nguyễn Huệ" placeholder="Địa chỉ" /></div>
+      </div>
+    </section>
+
+    <!-- Thông tin tài khoản -->
+    <section class="mb-3">
+      <div class="section-title">
+        <i class="bi bi-box-arrow-in-right"></i> Thông tin tài khoản
+        <i class="bi bi-pencil ms-2 edit-icon"></i>
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-3"><input class="form-control" value="Văn Sang" placeholder="Tên đăng nhập" /></div>
+        <div class="col-md-3"><input class="form-control" value="************" type="password" placeholder="Mật khẩu" /></div>
+        <div class="col-md-3"><input class="form-control" value="Hoạt động" placeholder="Trạng thái TK" /></div>
+        <div class="col-md-3"><input class="form-control" value="01/01/2024" placeholder="Ngày tạo TK" /></div>
+      </div>
+    </section>
+
+    <!-- Thông tin giao dịch -->
+    <section class="mb-4">
+      <div class="section-title">
+        <i class="bi bi-check2-square"></i> Thông tin giao dịch
+      </div>
+      <div class="row mt-2">
+        <div class="col-md-3"><input class="form-control" value="11" placeholder="Tổng đơn hàng" /></div>
+        <div class="col-md-3"><input class="form-control" value="12.255.000 đ" placeholder="Giá trị mua hàng TB" /></div>
+        <div class="col-md-3"><input class="form-control" value="01/01/2025" placeholder="Lần mua gần nhất" /></div>
+        <div class="col-md-3"><input class="form-control" value="255 đ" placeholder="Điểm tích lũy" /></div>
+      </div>
+    </section>
+
+    <div class="text-end">
+      <button class="btn btn-primary">Xác nhận</button>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
